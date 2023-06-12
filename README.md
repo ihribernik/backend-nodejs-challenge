@@ -30,3 +30,14 @@ Entities to consider:
 
 ![database schema](./images/der.png)
 
+## How to run the proyect
+
+To run the proyect in dev mode do the followings steps:
+
+- copy the example.env into the file .env
+- change in the .env file the env var `NODE_ENV` to `development`
+- run `npm run reset-sqlite-dev` to generate the sqlite db
+- run `npm run swagger-autogen` to generate the sqlite db
+- run `npm run dev` for start the dev server
+
+In the console it shows the routes for the swagger UI
