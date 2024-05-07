@@ -9,7 +9,7 @@
     "swagger-autogen": "node ./src/swagger.js",
     "db:migrate": "npx sequelize db:migrate",
     "db:seeds": "npx sequelize-cli db:seed:all",
-    "reset-sqlite-dev": "npx rimraf ./127.0.0.1 && npm run db:migrate && npm run db:seeds",
+    "reset-sqlite-dev": "npx rimraf *.sqlite && npm run db:migrate && npm run db:seeds",
     "test": "mocha"
   },
   "author": "",
