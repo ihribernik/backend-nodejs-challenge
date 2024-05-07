@@ -1,6 +1,16 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,linux,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,linux,node
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node,linux,database
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,node,linux,database
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal
 
 ### Linux ###
 *~
@@ -202,8 +212,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,linux,node
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node,linux,database
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-## TODO database name ignore, sqlite3 for test
-127.0.0.1
