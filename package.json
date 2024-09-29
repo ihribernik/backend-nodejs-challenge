@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "lint": "prettier --check ./src/**",
+    "format": "prettier --check ./src/**",
     "swagger-autogen": "node ./src/swagger.js",
     "db:migrate": "npx sequelize db:migrate",
     "db:seeds": "npx sequelize-cli db:seed:all",
